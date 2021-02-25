@@ -1,20 +1,16 @@
-.tama{
-    width: 50px;
-    height: 50px;
+body{
+    background-color: aliceblue;
 }
 
-
-
-.fondo{
-    background-image: url("../image/bg-pattern-quotation.svg")  ;
-    background-repeat: no-repeat;
-    background-position-x: 400px;
-    background-position-y: 10px;
-    background-color: blueviolet;
+.color{
+    background-color: #67AF9E;
 }
 
+.fuente{
+    color: #67AF9E;
+    font-variant: small-caps;
+}
 
-.ma{
-    margin:0px;
-    padding:0px;
+.justificado{
+    text-align: justify;
 }
