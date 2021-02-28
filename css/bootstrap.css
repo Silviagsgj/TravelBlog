@@ -3785,6 +3785,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 
 .nav-link {
@@ -4726,8 +4727,9 @@ textarea.form-control-lg {
   display: block;
   padding: 0.5rem 1rem;
   text-decoration: none;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  /* background-color: #fff; */
+  background-color: #67af9e2f;
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;
