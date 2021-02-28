@@ -80,102 +80,78 @@
 </div>
 
     <div class="container">
-      <!-- seccion uno -->
-      <section class="row mb-4 mt-4">
-         <!-- Parte titulos -->
-         <h2 class="col-12  border-bottom p-3 fuente">La guia mas completa sobre viajes</h2>
-        <div class="col-6 ">
-          <p class="justificado">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum odit iure nesciunt nulla consectetur 
-            possimus unde eius laudantium recusandae inventore labore doloribus aliquam dolor, earum veniam 
-            nemo accusantium in vitae.
-          </p>
-          <p  class="justificado">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum odit iure nesciunt nulla consectetur 
-            possimus unde eius laudantium recusandae inventore labore doloribus aliquam dolor, earum veniam 
-            nemo accusantium in vitae.
-          </p>
-          <p  class="justificado">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum odit iure nesciunt nulla consectetur 
-            possimus unde eius laudantium recusandae inventore labore doloribus aliquam dolor, earum veniam 
-            nemo accusantium in vitae.
-          </p>
-        </div>
-        <div class="col-6">      
-            <video class="rounded" src="./video/playa.mp4" autoplay muted loop></video>
-        </div>
-      </section>
-      <!-- seccion dos -->
-      <section class="row mb-4">
-        <!-- Parte titulos -->
-        <h2 class="col-12 border-bottom p-3 fuente">Ultimos posts</h2>
-        <!-- Parte tarjetas -->
+        <section class="row  mb-4 mt-4">
+            <div class="col-12">
+                <h2 class=" border-bottom p-3 fuente">Tu viaje a tu medida</h2>
+                <p class="justificado mb-5">El diseño y organización de un viaje a medida es un proceso costoso, y nosotros realizamos este trabajo sin ningún coste ni compromiso para usted. Pero necesitaremos tiempo para realizar un trabajo de calidad, además de una estrecha comunicación, que nos permita entender perfectamente qué viaje desea realizar y con qué presupuesto.</p>
+            </div>
+   
 
-        <div class="row justify-content-between p-4">
-        <div class="card col-3 " >
-          <img src="image/playa1.jpeg" class="card-img-top  h-50" alt="...">
-          <div class="card-body d-flex flex-column justify-content-around">
-            <h5 class="card-title text-center">Las mejores playas de Costa Dorada, una guía con sabor mediterráneo</h5>
-          
-            <a href="#" class="btn btn-light fuente">Más información</a>
-          </div>
+        <!-- Formulario -->
+        <form class="row justify-content-around align-items-center">
+            <div class="col-5 border p-4 rounded fondo">
+            <div class="mb-3">
+                <label for="exampleInputnombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleInputnombre" aria-describedby="nombreHelp">
+               
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">              
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputtel" class="form-label">Teléfono</label>
+              <input type="text" class="form-control" id="exampleInputtel">
+            </div>
         </div>
 
-        <div class="card col-3" >
-          <img src="image/playa2.jpg" class="card-img-top  h-50" alt="...">
-          <div class="card-body d-flex flex-column justify-content-around">
-            <h5 class="card-title text-center">Báñate en las mejores playas de Galicia</h5>
-          
-            <a href="#" class="btn btn-light fuente">Más información</a>
-          </div>
-        </div>
+        <div class="col-5 border p-4 rounded fondo">
+            <div class="mb-3">
+                <p class="form-label p-2">¿Con quién viajas?</p>
 
-        <div class="card col-3 ">
-          <img src="image/playa3.jpg" class="card-img-top  h-50" alt="...">
-          <div class="card-body d-flex flex-column justify-content-around">
-            <h5 class="card-title text-center">Las playas de Medina Sidonia, el encanto de la segunda línea de costa
-            </h5>
-      
-            <a href="#" class="btn btn-light fuente">Más información</a>
-          </div>
-        </div>
-      </div>
+                    <div class="d-flex justify-content-around">
+                    <input class="form-check-input" id="radio1" type="radio" name="tipo" value="op1" checked="checked">Familia                  
+              
+               
+                    <input class="form-check-input" id="radio2" type="radio" name="tipo" value="op2">Grupo amigos               
 
-      
-      <div class="row justify-content-between p-4">
-        <div class="card col-3 " >
-          <img src="image/playa1.jpeg" class="card-img-top  h-50" alt="...">
-          <div class="card-body d-flex flex-column justify-content-around">
-            <h5 class="card-title text-center">Las mejores playas de Costa Dorada, una guía con sabor mediterráneo</h5>
-          
-            <a href="#" class="btn btn-light fuente">Más información</a>
-          </div>
-        </div>
+              
+                    <input class="form-check-input" id="radio3" type="radio" name="tipo" value="op3">Solo/a   
+                 </div>             
+            </div>
 
-        <div class="card col-3" >
-          <img src="image/playa2.jpg" class="card-img-top h-50" alt="...">
-          <div class="card-body d-flex flex-column justify-content-around">
+            <div class="mb-3">
+                <p class="form-label p-2">¿Cuánto quieres que dure?</p>
+            <select class="form-select">
+                <option>Máximo 10 días</option>
+                <option>Entre 8 y 15 días</option>
+                <option>Máximo 20 días</option>
+                <option>Más de 20 días</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+                <p class="form-label p-2">¿Quieres comentarnos algo más?</p>
+                <textarea class="w-100" name="message" placeholder="Escribe aqui..."></textarea>
+            </div>
+        </div>
+            <button type="submit" class="btn btn-light fuente m-4 fs-4">Enviar datos</button>
+          </form>
+        		
+
+
+          <!-- Mostrarlo al dar a submit -->
+          <!-- <div class="alert alert-info" role="alert">
+            <h4 class="alert-heading">¡Datos enviados correctamente!</h4>
+            <p>En menos de 24 horas nos pondremos en contacto contigo</p>
             
-            <h5 class="card-title text-center">Báñate en las mejores playas de Galicia</h5>
-          
-            <a href="#" class="btn btn-light fuente">Más información</a>
-          </div>
-        </div>
+          </div> -->
 
-        <div class="card col-3">
-          <img src="image/playa3.jpg" class="card-img-top  h-50" alt="...">
-          <div class="card-body d-flex flex-column justify-content-around">
-            <h5 class="card-title text-center">Las playas de Medina Sidonia, el encanto de la segunda línea de costa
-            </h5>
-      
-            <a href="#" class="btn btn-light fuente">Más información</a>
-          </div>
-        </div>
-      </div>
-      </section>
+
+
+
+        </section>
     </div>
-
-
 
     <footer class="container-fluid row color m-0">
          <div class="col-9 d-flex align-items-center">
