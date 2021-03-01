@@ -8,6 +8,7 @@
     <title>Bootstrap</title>
 </head>
 <body>    
+  <!-- CAJA CONTENEDORA -->
     <div class="container-fluid">
      
         <!-- NAV -->
@@ -79,12 +80,13 @@
   </header>
 </div>
 
+  <!-- CAJA CONTENEDORA -->
     <div class="container">
-      <!-- seccion uno -->
-      <section class="row mb-4 mt-4">
-         <!-- Parte titulos -->
-         <h2 class="col-12  border-bottom p-3 fuente">La guia mas completa sobre viajes</h2>
-        <div class="col-6">
+      <!-- SECCION UNO -->
+      <section class="row mb-4 mt-4">      
+         <h2 class="col-12 text-sm-center text-lg-start border-bottom p-3 fuente">La guia mas completa sobre viajes</h2>
+         <div class="row m-0 align-items-center justify-content-center">
+        <div class="col-lg-6 col-sm-12">
           <p class="justificado">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum odit iure nesciunt nulla consectetur 
             possimus unde eius laudantium recusandae inventore labore doloribus aliquam dolor, earum veniam 
@@ -101,18 +103,18 @@
             nemo accusantium in vitae.
           </p>
         </div>
-        <div class="col-6">      
-            <video class="rounded" src="./video/playa.mp4" autoplay muted loop></video>
+        <div class="col-lg-6 sm-12">      
+            <video class="rounded ratio ratio-16x9" src="./video/playa.mp4" autoplay muted loop></video>
         </div>
+      </div>
       </section>
-      <!-- seccion dos -->
-      <section class="row mb-4">
-        <!-- Parte titulos -->
-        <h2 class="col-12 border-bottom p-3 fuente">Ultimos posts</h2>
-        <!-- Parte tarjetas -->
 
-        <div class="row justify-content-between p-4">
-        <div class="card col-3 " >
+      <!-- SECCION DOS -->
+      <section class="row justify-content-center align-items-center mb-4">       
+        <h2 class="col-12 text-sm-center text-lg-start border-bottom p-3 fuente">Ultimos posts</h2>
+        <!-- Parte tarjetas -->
+        <div class="row justify-content-around  ">
+        <div class="card col-sm-12 col-md-5 col-lg-2 gy-3" >
           <img src="image/playa1.jpeg" class="card-img-top  h-50" alt="...">
           <div class="card-body d-flex flex-column justify-content-around">
             <h5 class="card-title text-center">Las mejores playas de Costa Dorada, una guía con sabor mediterráneo</h5>
@@ -124,7 +126,21 @@
           </div>
         </div>
 
-        <div class="card col-3" >
+
+
+          <div class="card col-sm-12 col-md-5 col-lg-2 gy-3" >
+            <img src="image/playa1.jpeg" class="card-img-top  h-50" alt="...">
+            <div class="card-body d-flex flex-column justify-content-around">
+              <h5 class="card-title text-center">Las mejores playas de Costa Dorada, una guía con sabor mediterráneo</h5>
+            
+              <button type="button" class="btn btn-light fuente" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Más información
+              </button>
+  
+            </div>
+          </div> 
+
+        <div class="card col-sm-12 col-md-5 col-lg-2 gy-3" >
           <img src="image/playa2.jpg" class="card-img-top  h-50" alt="...">
           <div class="card-body d-flex flex-column justify-content-around">
             <h5 class="card-title text-center">Báñate en las mejores playas de Galicia</h5>
@@ -136,7 +152,7 @@
           </div>
         </div>
 
-        <div class="card col-3 ">
+        <div class="card col-sm-12 col-md-5 col-lg-2 gy-3">
           <img src="image/playa3.jpg" class="card-img-top  h-50" alt="...">
           <div class="card-body d-flex flex-column justify-content-around">
             <h5 class="card-title text-center">Las playas de Medina Sidonia, el encanto de la segunda línea de costa
@@ -151,11 +167,12 @@
       </div>
 
       
-      <div class="row justify-content-between p-4">
-        <div class="card col-3 " >
+      <div class="row justify-content-around  ">
+        <div class="card col-sm-12 col-md-5 col-lg-2 gy-3" >
           <img src="image/playa1.jpeg" class="card-img-top  h-50" alt="...">
           <div class="card-body d-flex flex-column justify-content-around">
             <h5 class="card-title text-center">Las mejores playas de Costa Dorada, una guía con sabor mediterráneo</h5>
+          
             <button type="button" class="btn btn-light fuente" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Más información
             </button>
@@ -163,10 +180,23 @@
           </div>
         </div>
 
-        <div class="card col-3" >
-          <img src="image/playa2.jpg" class="card-img-top h-50" alt="...">
-          <div class="card-body d-flex flex-column justify-content-around">
+
+
+          <div class="card col-sm-12 col-md-5 col-lg-2 gy-3" >
+            <img src="image/playa1.jpeg" class="card-img-top  h-50" alt="...">
+            <div class="card-body d-flex flex-column justify-content-around">
+              <h5 class="card-title text-center">Las mejores playas de Costa Dorada, una guía con sabor mediterráneo</h5>
             
+              <button type="button" class="btn btn-light fuente" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Más información
+              </button>
+  
+            </div>
+          </div> 
+
+        <div class="card col-sm-12 col-md-5 col-lg-2 gy-3" >
+          <img src="image/playa2.jpg" class="card-img-top  h-50" alt="...">
+          <div class="card-body d-flex flex-column justify-content-around">
             <h5 class="card-title text-center">Báñate en las mejores playas de Galicia</h5>
           
             <button type="button" class="btn btn-light fuente" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -176,16 +206,21 @@
           </div>
         </div>
 
-        <div class="card col-3">
+        <div class="card col-sm-12 col-md-5 col-lg-2 gy-3">
           <img src="image/playa3.jpg" class="card-img-top  h-50" alt="...">
           <div class="card-body d-flex flex-column justify-content-around">
             <h5 class="card-title text-center">Las playas de Medina Sidonia, el encanto de la segunda línea de costa
             </h5>
+      
             <button type="button" class="btn btn-light fuente" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Más información
             </button>
-      
-          
+
+          </div>
+        </div>
+      </div>
+
+
 
             <!-- Modal -->
 <div class="modal " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -211,23 +246,23 @@
     </div>
 
 
-
+<!-- FOOTER -->
     <footer class="container-fluid row color m-0 p-3 text-light">
    
-         <div class="col-4 d-flex flex-column justify-content-around align-items-center">
+         <div class="col-lg-5 col-md-6 d-flex flex-column justify-content-around align-items-center d-none d-md-block">
           <h4>About</h4>
         
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
         </div>
 
-        <div class="col-4 p-3 d-flex justify-content-around align-items-center">          
+        <div class="col-sm-12 col-md-6 col-lg-5 p-3 d-flex justify-content-around align-items-center">          
               <a href="https://www.twitter.com"><i class="fab fa-twitter fs-2 text-light"></i></a>
               <a href="https://www.facebook.com"><i class="fab fa-facebook-f fs-2 text-light"></i></a>
               <a href="https://www.instagram.com"><i class="fab fa-instagram fs-2 text-light"></i></a>
               <a href="https://www.pinterest.com"><i class="fab fa-pinterest fs-2 text-light"></i></a>         
       </div>   
       
-      <div class="col-4 d-flex flex-column justify-content-around align-items-center">
+      <div class="col-lg-2 d-flex flex-column justify-content-around align-items-center d-none d-lg-block">
         <h4>Our Bunker</h4>
         <div class="hline-w"></div>
         <p>
