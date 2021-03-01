@@ -1,5 +1,11 @@
+@font-face{
+    font-family: a;
+  src: url(../fonts/CaviarDreams.ttf);
+}
+
 body{
     background-color: aliceblue;
+    font-family: a;
 }
 
 .color{
